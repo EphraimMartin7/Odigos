@@ -1,0 +1,502 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    
+}
+.flot{
+    float: left;
+}
+.header-first{
+    width: 100%;
+    height: 65px;
+    background-color: #222222;
+}
+.contact-info span{
+    padding: 0px 20px;
+    margin: 0px 70px;
+    color: rgb(172, 172, 172);
+}
+.h1{
+position: relative;
+top: 100px;
+left: 200px;
+}
+
+.fb span{
+ padding: 0px 7px;
+    margin: 0px 5px;
+}
+.bi-facebook{
+    color: white;
+}
+.bi-linkedin{
+    color: white;
+}
+.bi-facebook:hover{
+    color:#4267b2;
+}
+.bi-linkedin:hover{
+    color:  #0A66C2;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section.bg{
+    width: 100%;
+    height: 100vh;
+    
+  background-image:  url('img/slide1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+a.navbar-brand>img{
+width: 350px;
+height: 90px;
+
+}
+
+.nav-brand{
+    float: left;
+    width: 30%;
+}
+.navbar-nav{
+    float: left;
+    width: 70%;
+}
+.navbar-item{
+  font-weight: 100;
+    border-radius: 2px;
+    padding: 1px;
+    margin-right: 5px;
+    transition: 0.5s;
+    border: none;
+    margin: 0px 20px;
+    
+}
+.nav-link{
+    color: white;
+    letter-spacing: 0.5px;
+}
+.nav-link:hover{
+    color: rgba(247, 192, 110, 0.986);
+    letter-spacing: 0.5px;
+}
+.navbar-item:hover{
+    background-color: rgba(199, 199, 199, 0.123);
+    transition: 0.5s;
+}
+.text h1{
+    font-family: Courgette;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: relative;
+    left: 80px;
+    padding: 10px;
+}
+.text>p{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 90px;
+    font-weight: 600;
+    left: -5px;
+    letter-spacing: 15px;
+
+}
+.text{
+    position: absolute;
+    top: 44%;
+}
+.text button{
+    margin-left: 20%;
+    clear: both;
+    display: block;
+  background-color: white;
+  position: relative;
+padding: 8px ;
+  width: 50%;
+  border-radius: 10px;
+  font-weight: 300;
+  color: rgb(255, 153, 0);
+  border: none;
+  transition: 0.5s;
+}
+.text button:hover{
+    background-color: rgb(255, 153, 0);
+    color: white;
+    transition: 0.5s;
+    
+}
+
+
+.s2{
+    width: 100%;
+    height: 650px;
+    background-color: rgba(202, 202, 202, 0.911);
+}
+.wrapper{
+    position: relative;
+    left: 10%;  
+    overflow: hidden;
+    border-radius: 4%;
+}
+.wrapper img{
+    transition: scale 400ms;
+    border-radius: 4%;
+    
+}
+.wrapper img:hover{
+    scale: 110%;
+    
+    
+}
+.text1>h3{
+    position: relative;
+    top: 40%;
+    left: 30%;
+}
+
+.cont{
+    font-size: 20px;
+}
+.text1 h3{
+    position: relative;
+    left: 42%;
+}
+
+.discover span{
+    font-family: Courgette;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    
+    
+    padding: 10px;
+    
+}
+.top{
+    position: relative;
+    top: 30%;
+    
+}
+.discover>.spa1{
+    position: relative;
+    left: 200px;
+}
+.discover>.spa{
+    
+    
+    font-family: 'Poppins';
+    color: white;
+    
+    font-weight: 600;
+    
+    letter-spacing: 15px;
+}
+
+.imgcontainer img{
+    width: 100%;
+    height: 100%;
+   
+}
+.card{
+    width: 30%;
+    text-align: center;
+    float: left;
+    margin: 18px 10px;
+}
+.card button{
+     clear: both;
+    display: block;
+  background-color: rgba(231, 228, 228, 0.692);
+  position: relative;
+padding: 8px ;
+  width: 50%;
+  margin-left: 84px;
+  border-radius: 10px;
+  font-weight: 300;
+  color: rgb(255, 153, 0);
+  border: none;
+  transition: 0.5s;
+}
+.card button:hover{
+    background-color: rgb(255, 153, 0);
+    color: white;
+    transition: 0.5s;
+}
+
+.bi-play-circle-fill{
+    color: white;
+    font-size: 70px;
+    transition: 0.5s
+}
+.bi-play-circle-fill:hover{
+    color: rgb(0, 217, 255);
+    transition: 0.5s;
+   font-size: 83px;
+}
+.discovers{
+    font-size: 50px;
+    padding: 10px;
+   
+}
+.discovers>.spa{
+
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 600;
+    letter-spacing: 15px;
+}
+.discovers>.spa1{
+    position: relative;
+    left: 45%;
+    font-family: Courgette;
+}
+.figure{
+    width: 20%;
+    height: 30%;
+    padding: 20px;
+    background-color: white;
+    margin-right: 30px;
+}
+.figure:hover{
+    box-shadow: #222222;
+}
+.figure-caption p{
+    margin-left: -50px;
+    width: 80%;
+}
+.figure-caption h5,.bi-laptop{
+    margin-left: 10px;
+}
+.place img{
+width: 190px;
+    margin: 20px;
+    transition: 0.2s;
+    overflow: hidden;
+}
+.place img:hover{
+    width: 200px;
+    transition: 0.2s;
+    overflow: hidden;
+
+ }
+ .figures-caption{
+    color: rgb(240, 239, 239);
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-align: justify;
+ }
+ .figures{
+    width: 22%;
+    height: 35%;
+    padding: 20px;
+text-align: justify;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+
+
+
+
+.rowbox1 ul{
+    margin-top: 0px;
+}
+.row-ox1 ul li{
+    color: white;
+    line-height: none;
+}
+
+.rowbox1{
+    width: 10%;
+    float: left;
+    text-align: justify;
+    position: relative;
+    top: 50px;
+    left: 750px;
+    color: rgba(190, 190, 190, 0.877);
+}
+.rowbox2 p{
+    padding-bottom: 10px;
+}
+.rowbox p{
+    padding-bottom: 10px;
+}
+.rowbox2 h3{
+    position: relative;
+    left:1px;
+    padding: 20px;
+}
+.rowbox3 h3{
+    position: relative;
+    left:1px;
+    padding: 20px;
+}
+.rowbox1 h3{
+    position: relative;
+    left:1px;
+    padding: 20px;
+}
+.rowbox2{
+    
+    width: 15%;
+    float: left;
+    text-align: start;
+    position: relative;
+    top: 50px;
+    left: 700px;
+    color: rgba(190, 190, 190, 0.877);
+}
+.rowbox3{
+    
+    width: 15%;
+    float: left;
+    text-align: start;
+    position: relative;
+    top: 50px;
+    left: 900px;
+    color: rgba(190, 190, 190, 0.877);
+}
+.div{
+    position: relative;
+    left: -500px;
+    top: 30px;
+    
+}
+
+.center h1{
+    position: absolute;
+    margin-left: 32%;
+    margin-top: 15%;
+    padding: 20px;
+}
+.center h5{
+    position:absolute;
+    margin-left: 28%;
+    margin-top: 20%;
+    padding: 20px;
+letter-spacing: 3px;
+}
+.center button{
+    position: absolute;
+   margin-left: 48%;
+    margin-top: 25%;
+    clear: both;
+    display: block;
+  background-color: white;
+padding: 8px ;
+  width: 10%;
+  border-radius: 10px;
+  font-weight: 300;
+  color: rgb(255, 153, 0);
+  border: none;
+  transition: 0.5s;
+}
+.center  button:hover{
+    background-color: rgb(255, 153, 0);
+    color: white;
+    transition: 0.5s;
+}
+button.hi{
+    
+   width: 50%;
+   left: 50px;
+ 
+}
+
+h5.horiz {
+font-size: 30px;
+font-weight: 500;
+padding: 20px;
+margin-top: 20px;
+color: rgba(8, 206, 255, 0.692);
+}
+p.horiz {
+   margin-top: 20px;
+    padding-top: 20px;
+}
+
+.about p{
+    margin-bottom: 20px;
+}
+.about h1{
+    margin-bottom: 20px;
+}
+.about strong{
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.rbut button{
+   
+   
+    clear: both;
+    display: block;
+  background-color: rgba(206, 205, 205, 0.185);
+  position: relative;
+padding: 8px ;
+  width: 50%;
+  border-radius: 10px;
+  font-weight: 300;
+  color: rgb(255, 153, 0);
+  border: none;
+  transition: 0.5s;
+  margin-top: 50px;
+  
+}
+.rbut button:hover{
+    background-color: rgb(255, 153, 0);
+    color: white;
+    transition: 0.5s;
+}
+.meg{
+    margin-top: 150px;
+}
+.megtitle{
+    margin-top: 150px;
+}
+
+.btn{
+    clear: both;
+    display: block;
+  background-color: rgba(206, 205, 205, 0.185);
+  position: relative;
+padding: 8px ;
+  width: 50%;
+  border-radius: 10px;
+  font-weight: 300;
+  color: rgb(255, 153, 0);
+  border: none;
+  transition: 0.5s;
+  margin-top: 50px;
+}
+.btn:hover{
+    background-color: rgb(255, 153, 0);
+    color: white;
+    transition: 0.5s;
+}
+.c>img{
+width: 280px;
+height: 250px;
+padding: 15px;
+transition: scale 400ms;
+border-radius: 4%;
+
+}
+.c{
+    display: flex;
+    float: left;
+}
+.c>img:hover{
+    scale: 120%;
+
+}
+.map>h1{
+    text-align: center;
+    padding: 30px;
+}
